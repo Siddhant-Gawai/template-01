@@ -23,6 +23,12 @@
 /*=================================
 	1. HEADER
 =================================*/
+
+input[type="submit"] {
+	display: block;
+	width: 60%;
+}
+
 .bg-fix {
     background-attachment: fixed;
 	background-size: cover;
