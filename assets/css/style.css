@@ -1914,7 +1914,7 @@ button.back-to-top {
 	box-shadow: 0 0 25px 0 rgba(29,25,0,0.15);
 	margin-top: -30px;
 	position: relative;
-	top: -40px;
+	top: -20px;
 	margin-bottom: -20px;
 }
 .service-bx .info-bx{
@@ -3298,10 +3298,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 		font-size:12px !important;
 	}
 	/* Rev Slide */
-	.rev-slider .tp-rightarrow,
+	/* .rev-slider .tp-rightarrow,
 	.rev-slider .tp-leftarrow{
 		display:none;
-	}
+	} */
 }
 @media only screen and (max-width: 576px) {
 	.footer-title{

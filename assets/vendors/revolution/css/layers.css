@@ -5713,22 +5713,22 @@ tp-caption.Team-Thumb,
             width: 160px;
         }
     }
-    #rev_slider_167_6 .uranus.tparrows {
+    /* #rev_slider_167_6 .uranus.tparrows {
         width: 50px;
         height: 50px;
         background: rgba(255, 255, 255, 0);
-    }
-    #rev_slider_167_6 .uranus.tparrows:before {
+    } */
+    /* #rev_slider_167_6 .uranus.tparrows:before {
         width: 50px;
         height: 50px;
         line-height: 50px;
         font-size: 40px;
         transition: all 0.3s;
         -webkit-transition: all 0.3s;
-    }
-    #rev_slider_167_6 .uranus.tparrows:hover:before {
+    } */
+    /* #rev_slider_167_6 .uranus.tparrows:hover:before {
         opacity: 0.75;
-    }
+    } */
     .tp-caption.FullSiteBlock-SubTitle,
     .FullSiteBlock-SubTitle {
         color: rgba(51, 51, 51, 1.00);

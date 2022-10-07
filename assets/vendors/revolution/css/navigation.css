@@ -8,7 +8,7 @@ author:  ThemePunch
 email:      info@themepunch.com
 website:    http://www.themepunch.com
 -----------------------------------------------------------------------------*/
-.ares.tparrows {
+/* .ares.tparrows {
   cursor:pointer;
   background:#fff;
   min-width:60px;
@@ -17,7 +17,7 @@ website:    http://www.themepunch.com
   display:block;
   z-index:100;
     border-radius:50%;
-}
+} */
 .ares.tparrows:hover {
 }
 .ares.tparrows:before {
