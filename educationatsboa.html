@@ -46,7 +46,34 @@
 	<!-- STYLESHEETS ============================================= -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">
+	<style>
+		.imagegroup {
+			display: flex;
+			width: 100%;
+		}
 
+		.imagegroup img {
+			flex-shrink: 0;
+			object-fit: cover;
+			border: 3px solid white;
+		}
+
+		.imagegroup {
+			animation: travel 20s ease-in-out infinite;
+		}
+
+		@keyframes travel {
+
+			0%,
+			100% {
+				transform: translate3d(0, 0, 0);
+			}
+
+			50% {
+				transform: translate3d(-320%, 0, 0);
+			}
+		}
+	</style>
 </head>
 
 <body id="bg">
@@ -72,7 +99,7 @@
 								</select>
 							</li> -->
 								<li><a href="#">Fees Portal</a></li>
-								<li><a href="#">Facebook</a></li>
+								<li><a href="#">Admission</a></li>
 							</ul>
 						</div>
 					</div>
@@ -96,18 +123,7 @@
 							<span></span>
 						</button>
 						<!-- Author Nav ==== -->
-						<div class="secondary-menu">
-							<div class="secondary-inner">
-								<ul>
-									<li><a href="javascript:;" class="btn-link"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="javascript:;" class="btn-link"><i class="fa fa-google-plus"></i></a>
-									</li>
-									<li><a href="javascript:;" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
-									<!-- Search Button ==== -->
-									<!-- <li class="search-btn"><button id="quik-search-btn" type="button" class="btn-link"><i class="fa fa-search"></i></button></li> -->
-								</ul>
-							</div>
-						</div>
+
 						<!-- Search Box ==== -->
 						<div class="nav-search-bar">
 							<form action="#">
@@ -239,11 +255,7 @@
 								</ul>
 							</li> -->
 							</ul>
-							<div class="nav-social-link">
-								<a href="javascript:;"><i class="fa fa-facebook"></i></a>
-								<a href="javascript:;"><i class="fa fa-google-plus"></i></a>
-								<a href="javascript:;"><i class="fa fa-linkedin"></i></a>
-							</div>
+
 						</div>
 						<!-- Navigation Menu END ==== -->
 					</div>
@@ -254,7 +266,7 @@
 		<!-- Inner Content Box ==== -->
 		<div class="page-content">
 			<!-- Page Heading Box ==== -->
-			<div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner2.jpg);">
+			<div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/educationatsboa.jpeg);">
 				<div class="container">
 					<div class="page-banner-entry">
 						<h1 class="text-white">Education At SBOA</h1>
@@ -272,19 +284,29 @@
 							<div class="col-lg-12 col-md-12 heading-bx">
 								<h2 class="m-b10">Education at SBOA is a Preparation for Life </h2>
 								<!-- <h5 class="fw4"></h5> -->
-								<p class="mb-0 pb-0" style="text-align: justify; text-justify: inter-word;"> The school keeps a central focus on teaching and learning and has
+								<p class="mb-0 pb-0" style="text-align: justify; text-justify: inter-word;"> The school
+									keeps a central focus on teaching and learning and has
 									been producing excellent academic results since its inception. It
 									has gained distinction in the field of academics and firmly remains committed to the
-									cause of education in consonance with the emerging needs of the present. Learning here is facilitated through experiments, projects, assignments and discussion in every discipline.
+									cause of education in consonance with the emerging needs of the present. Learning
+									here is facilitated through experiments, projects, assignments and discussion in
+									every discipline.
 								</p>
-								<p class="mb-0 pb-0" style="text-align: justify; text-justify: inter-word;"> Apart from refining the academic skills of the students, the educational programme at SBOA also aims at strengthening the self
-									confidence of the learners by nurturing their hidden talents and capabilities. The comprehensive programme of co –curricular activities
-									gives an ample room to every child to discover and develop his / her innate strengths. A wide range of opportunities are provided here
-									in variety of areas viz. gymnastics, yoga, aerobics, scouts and guide, sports, music, dance, drama, art and craft apart from academics.
-									The educational programme at SBOA seeks to instill in children ideal habits, positive attitude and right values .Thus the children at
-									SBOA are trained not only for the school examinations but are also prepared to face the tough challenges of life confidently and
+								<p class="mb-0 pb-0" style="text-align: justify; text-justify: inter-word;"> Apart from
+									refining the academic skills of the students, the educational programme at SBOA also
+									aims at strengthening the self
+									confidence of the learners by nurturing their hidden talents and capabilities. The
+									comprehensive programme of co –curricular activities
+									gives an ample room to every child to discover and develop his / her innate
+									strengths. A wide range of opportunities are provided here
+									in variety of areas viz. gymnastics, yoga, aerobics, scouts and guide, sports,
+									music, dance, drama, art and craft apart from academics.
+									The educational programme at SBOA seeks to instill in children ideal habits,
+									positive attitude and right values .Thus the children at
+									SBOA are trained not only for the school examinations but are also prepared to face
+									the tough challenges of life confidently and
 									responsibly.
-									
+
 								</p>
 							</div>
 						</div>
@@ -294,72 +316,72 @@
 				<!-- About Us ==== -->
 				<div class="section-area section-sp1">
 					<div class="container">
-						 <div class="row">
-							 <div class="col-lg-12">
-								 <div class="row">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="row">
 									<div class="col-lg-4 col-md-4 col-sm-4 m-b30">
 										<div class="feature-container">
 											<div class="feature-md text-white m-b20">
-												<a href="#" class="icon-cell"><img src="assets/images/icon/abacus.png" alt=""/></a> 
+												<a href="#" class="icon-cell"><img src="assets/images/icon/abacus.png"
+														alt="" /></a>
 											</div>
 											<div class="icon-content">
 												<h5 class="ttr-tilte">Abacus</h5>
-												<p>Your goal should be out of reach but not out of sight.</p>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-4 m-b30">
 										<div class="feature-container">
 											<div class="feature-md text-white m-b20">
-												<a href="#" class="icon-cell"><img src="assets/images/icon/squats.png" alt=""/></a> 
+												<a href="#" class="icon-cell"><img src="assets/images/icon/squats.png"
+														alt="" /></a>
 											</div>
 											<div class="icon-content">
 												<h5 class="ttr-tilte">Aerobics</h5>
-												<p>A year from now you may wish you had started today.</p>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-4 m-b30">
 										<div class="feature-container">
 											<div class="feature-md text-white m-b20">
-												<a href="#" class="icon-cell"><img src="assets/images/icon/acrobat.png" alt=""/></a> 
+												<a href="#" class="icon-cell"><img src="assets/images/icon/acrobat.png"
+														alt="" /></a>
 											</div>
 											<div class="icon-content">
 												<h5 class="ttr-tilte">Gymnastics</h5>
-												<p>Jump off the beam, flip off the bars, follow your dreams and reach for the stars.</p>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-4 m-b30">
 										<div class="feature-container">
 											<div class="feature-md text-white m-b20">
-												<a href="#" class="icon-cell"><img src="assets/images/icon/yoga-pose.png" alt=""/></a> 
+												<a href="#" class="icon-cell"><img
+														src="assets/images/icon/yoga-pose.png" alt="" /></a>
 											</div>
 											<div class="icon-content">
 												<h5 class="ttr-tilte">Yoga</h5>
-												<p>Yoga is the journey of the self, through the self, to the self.</p>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-4 m-b30">
 										<div class="feature-container">
 											<div class="feature-md text-white m-b20">
-												<a href="#" class="icon-cell"><img src="assets/images/icon/boy-scout.png" alt=""/></a> 
+												<a href="#" class="icon-cell"><img
+														src="assets/images/icon/boy-scout.png" alt="" /></a>
 											</div>
 											<div class="icon-content">
 												<h5 class="ttr-tilte">Scouts and Guide</h5>
-												<p>The sport in Scouting is to find the good in everyone and develop it.</p>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-4 m-b30">
 										<div class="feature-container">
 											<div class="feature-md text-white m-b20">
-												<a href="#" class="icon-cell"><img src="assets/images/icon/dancing.png" alt=""/></a> 
+												<a href="#" class="icon-cell"><img src="assets/images/icon/dancing.png"
+														alt="" /></a>
 											</div>
 											<div class="icon-content">
 												<h5 class="ttr-tilte">Cultural Festivals</h5>
-												<p>Culture is a way of coping with the world by defining it in detail.</p>
 											</div>
 										</div>
 									</div>
@@ -368,120 +390,86 @@
 						</div>
 					</div>
 				</div>
-				<!-- About Us END ==== -->
 
-				<!-- Our Status ==== -->
-				<!-- <div class="section-area content-inner section-sp1">
-					<div class="container">
-						<div class="section-content">
-							<div class="row">
-								<div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-									<div class="counter-style-1">
-										<div class="text-primary">
-											<span class="counter">3000</span><span>+</span>
-										</div>
-										<span class="counter-text">Completed Projects</span>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-									<div class="counter-style-1">
-										<div class="text-black">
-											<span class="counter">2500</span><span>+</span>
-										</div>
-										<span class="counter-text">Happy Clients</span>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-									<div class="counter-style-1">
-										<div class="text-primary">
-											<span class="counter">1500</span><span>+</span>
-										</div>
-										<span class="counter-text">Questions Answered</span>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-									<div class="counter-style-1">
-										<div class="text-black">
-											<span class="counter">1000</span><span>+</span>
-										</div>
-										<span class="counter-text">Ordered Coffee's</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
-				<!-- Our Status END ==== -->
-				<!-- About Content ==== -->
-				<!-- <div class="section-area section-sp2 bg-fix ovbl-dark join-bx text-center"
-					style="background-image:url(assets/images/background/bg1.jpg);">
+				<div class="section-area bg-gray section-sp1 our-story">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-12">
-								<div class="join-content-bx text-white">
-									<h2>Learn a new skill online on <br /> your time</h2>
-									<h4><span class="counter">57,000 </span> Online Courses</h4>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-										Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-										unknown printer took a galley of type and scrambled it to make a type specimen
-										book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-										Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-										when an unknown printer took a galley of type and scrambled it to make a type
-										specimen book.</p>
-									<a href="#" class="btn button-md">Join Now</a>
+							<div class="imagegroup" style="animation-delay: 1s;">
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image16.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image17.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image18.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image19.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image20.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image21.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image22.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image23.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image24.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image25.jpeg" alt="">
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div> -->
-				<!-- About Content END ==== -->
-				<!-- Testimonials ==== -->
-				<!-- <div class="section-area section-sp2">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12 heading-bx left">
-								<h2 class="title-head text-uppercase">what people <span>say</span></h2>
-								<p>It is a long established fact that a reader will be distracted by the readable
-									content of a page</p>
-							</div>
-						</div>
-						<div class="testimonial-carousel owl-carousel owl-btn-1 col-12 p-lr0">
-							<div class="item">
-								<div class="testimonial-bx">
-									<div class="testimonial-thumb">
-										<img src="assets/images/testimonials/pic1.jpg" alt="">
-									</div>
-									<div class="testimonial-info">
-										<h5 class="name">Peter Packer</h5>
-										<p>-Art Director</p>
-									</div>
-									<div class="testimonial-content">
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-											Lorem Ipsum has been the industry's standard dummy text ever since the
-											1500s, when an unknown printer took a galley of type...</p>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testimonial-bx">
-									<div class="testimonial-thumb">
-										<img src="assets/images/testimonials/pic2.jpg" alt="">
-									</div>
-									<div class="testimonial-info">
-										<h5 class="name">Peter Packer</h5>
-										<p>-Art Director</p>
-									</div>
-									<div class="testimonial-content">
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-											Lorem Ipsum has been the industry's standard dummy text ever since the
-											1500s, when an unknown printer took a galley of type...</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
-				<!-- Testimonials END ==== -->
+				</div>
+
 			</div>
 			<!-- Page Content Box END ==== -->
 		</div>
@@ -495,14 +483,7 @@
 							<div class="pt-logo mr-auto">
 								<a href="index.html" style="font-weight:700; font-size:20px">SBOA Public School</a>
 							</div>
-							<div class="pt-social-link">
-								<ul class="list-inline m-a0">
-									<li><a href="#" class="btn-link"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#" class="btn-link"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#" class="btn-link"><i class="fa fa-google-plus"></i></a></li>
-								</ul>
-							</div>
+
 							<!-- <div class="pt-btn-join">
 								<a href="#" class="btn ">Join Now</a>
 							</div> -->
@@ -511,28 +492,7 @@
 				</div>
 				<div class="container">
 					<div class="row">
-						<!-- <div class="col-lg-4 col-md-12 col-sm-12 footer-col-4">
-							<div class="widget">
-								<h5 class="footer-title">Sign Up For A Newsletter</h5>
-								<p class="text-capitalize m-b20">Weekly Breaking news analysis and cutting edge advices
-									on job searching.</p>
-								<div class="subscribe-form m-b20">
-									<form class="subscription-form"
-										action="http://educhamp.themetrades.com/demo/assets/script/mailchamp.php"
-										method="post">
-										<div class="ajax-message"></div>
-										<div class="input-group">
-											<input name="email" required="required" class="form-control"
-												placeholder="Your Email Address" type="email">
-											<span class="input-group-btn">
-												<button name="submit" value="Submit" type="submit" class="btn"><i
-														class="fa fa-arrow-right"></i></button>
-											</span>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div> -->
+
 						<div class="col-12 col-lg-12 col-md-12 col-sm-12">
 							<div class="row">
 								<div class="col-4 col-lg-4 col-md-4 col-sm-4">
@@ -567,34 +527,12 @@
 										<span>Address</span>
 										<p> Plot number 10, Sector-5, Nerul, Navi Mumbai-400706</p>
 										<span>Phone</span>
-										 
+
 									</div>
 								</div>
 							</div>
 						</div>
-						<!-- <div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
-							<div class="widget widget_gallery gallery-grid-4">
-								<h5 class="footer-title">Our Gallery</h5>
-								<ul class="magnific-image">
-									<li><a href="assets/images/gallery/pic1.jpg" class="magnific-anchor"><img
-												src="assets/images/gallery/pic1.jpg" alt=""></a></li>
-									<li><a href="assets/images/gallery/pic2.jpg" class="magnific-anchor"><img
-												src="assets/images/gallery/pic2.jpg" alt=""></a></li>
-									<li><a href="assets/images/gallery/pic3.jpg" class="magnific-anchor"><img
-												src="assets/images/gallery/pic3.jpg" alt=""></a></li>
-									<li><a href="assets/images/gallery/pic4.jpg" class="magnific-anchor"><img
-												src="assets/images/gallery/pic4.jpg" alt=""></a></li>
-									<li><a href="assets/images/gallery/pic5.jpg" class="magnific-anchor"><img
-												src="assets/images/gallery/pic5.jpg" alt=""></a></li>
-									<li><a href="assets/images/gallery/pic6.jpg" class="magnific-anchor"><img
-												src="assets/images/gallery/pic6.jpg" alt=""></a></li>
-									<li><a href="assets/images/gallery/pic7.jpg" class="magnific-anchor"><img
-												src="assets/images/gallery/pic7.jpg" alt=""></a></li>
-									<li><a href="assets/images/gallery/pic8.jpg" class="magnific-anchor"><img
-												src="assets/images/gallery/pic8.jpg" alt=""></a></li>
-								</ul>
-							</div>
-						</div> -->
+			
 					</div>
 				</div>
 			</div>

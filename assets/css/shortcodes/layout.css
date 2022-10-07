@@ -14,9 +14,9 @@
     left: 0 !important;
     width: 100% !important;
 }
-.boxed .tp-rightarrow {
+/* .boxed .tp-rightarrow {
     right: 0 !important;
-}
+} */
 .boxed .tp-leftarrow {
     left: 0 !important;
 }
@@ -45,9 +45,9 @@
     left: 0 !important;
     width: 100% !important;
 }
-.frame .tp-rightarrow {
+/* .frame .tp-rightarrow {
     right: 0 !important;
-}
+} */
 .frame .tp-leftarrow {
     left: 0 !important;
 }

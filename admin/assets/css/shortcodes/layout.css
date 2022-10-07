@@ -14,12 +14,12 @@
     left: 0 !important;
     width: 100% !important;
 }
-.boxed .tp-rightarrow {
+/* .boxed .tp-rightarrow {
     right: 0 !important;
-}
-.boxed .tp-leftarrow {
+} */
+/* .boxed .tp-leftarrow {
     left: 0 !important;
-}
+} */
 .boxed.footer-fixed footer {
     left: 50%;
     width: 1200px;
@@ -45,12 +45,12 @@
     left: 0 !important;
     width: 100% !important;
 }
-.frame .tp-rightarrow {
+/* .frame .tp-rightarrow {
     right: 0 !important;
-}
-.frame .tp-leftarrow {
+} */
+/* .frame .tp-leftarrow {
     left: 0 !important;
-}
+} */
 .frame .is-fixed .menu-bar {
     left:0;
     width: 100%;

@@ -58,6 +58,35 @@
 	<link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/settings.css">
 	<link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/navigation.css">
 	<!-- REVOLUTION SLIDER END -->
+
+	<style>
+		.imagegroup {
+			display: flex;
+			width: 100%;
+		}
+
+		.imagegroup img {
+			flex-shrink: 0;
+			object-fit: cover;
+			border: 3px solid white;
+		}
+
+		.imagegroup {
+			animation: travel 20s ease-in-out infinite;
+		}
+
+		@keyframes travel {
+
+			0%,
+			100% {
+				transform: translate3d(0, 0, 0);
+			}
+
+			50% {
+				transform: translate3d(-320%, 0, 0);
+			}
+		}
+	</style>
 </head>
 
 <body id="bg">
@@ -70,20 +99,14 @@
 					<div class="row d-flex justify-content-between">
 						<div class="topbar-left">
 							<ul>
-								<!-- <li><a href="faq-1.html"><i class="fa fa-question-circle"></i>Ask a Question</a></li> -->
 								<li><a href="#"><i class="fa fa-envelope-o"></i>sbioanerul@gmail.com</a></li>
 							</ul>
 						</div>
 						<div class="topbar-right">
 							<ul>
-								<!-- <li>
-								<select class="header-lang-bx">
-									<option data-icon="flag flag-uk">English UK</option>
-									<option data-icon="flag flag-us">English US</option>
-								</select>
-							</li> -->
+
 								<li><a href="#">Fees Portal</a></li>
-								<li><a href="#">Facebook</a></li>
+								<li><a href="#">Admission</a></li>
 							</ul>
 						</div>
 					</div>
@@ -108,16 +131,7 @@
 						</button>
 						<!-- Author Nav ==== -->
 						<div class="secondary-menu">
-							<div class="secondary-inner">
-								<ul>
-									<li><a href="javascript:;" class="btn-link"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="javascript:;" class="btn-link"><i class="fa fa-google-plus"></i></a>
-									</li>
-									<li><a href="javascript:;" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
-									<!-- Search Button ==== -->
-									<!-- <li class="search-btn"><button id="quik-search-btn" type="button" class="btn-link"><i class="fa fa-search"></i></button></li> -->
-								</ul>
-							</div>
+
 						</div>
 						<!-- Search Box ==== -->
 						<div class="nav-search-bar">
@@ -136,10 +150,7 @@
 							</div>
 							<ul class="nav navbar-nav">
 								<li class="active"><a href="javascript:;"> HOME</a>
-									<!-- <ul class="sub-menu">
-									<li><a href="index.html">Home 1</a></li>
-									<li><a href="index-2.html">Home 2</a></li>
-								</ul> -->
+
 								</li>
 								<li><a href="javascript:;">ABOUT US <i class="fa fa-chevron-down"></i></a>
 									<ul class="sub-menu">
@@ -200,62 +211,8 @@
 								</li>
 								<li><a href="contact.html"> CONTACT </a>
 								</li>
-								<!-- <li class="add-mega-menu"><a href="javascript:;">Gallery <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu add-menu">
-									<li class="add-menu-left">
-										<h5 class="menu-adv-title">Our Courses</h5>
-										<ul>
-											<li><a href="courses.html">Courses </a></li>
-											<li><a href="courses-details.html">Courses Details</a></li>
-											<li><a href="profile.html">Instructor Profile</a></li>
-											<li><a href="event.html">Upcoming Event</a></li>
-											<li><a href="membership.html">Membership</a></li>
-										</ul>
-									</li>
-									<li class="add-menu-right">
-										<img src="assets/images/adv/adv.jpg" alt=""/>
-									</li>
-								</ul>
-							</li> -->
-								<!-- <li><a href="javascript:;">Blog <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="blog-classic-grid.html">Blog Classic</a></li>
-									<li><a href="blog-classic-sidebar.html">Blog Classic Sidebar</a></li>
-									<li><a href="blog-list-sidebar.html">Blog List Sidebar</a></li>
-									<li><a href="blog-standard-sidebar.html">Blog Standard Sidebar</a></li>
-									<li><a href="blog-details.html">Blog Details</a></li>
-								</ul>
-							</li> -->
-								<!-- <li class="nav-dashboard"><a href="javascript:;">Dashboard <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="admin/index.html">Dashboard</a></li>
-									<li><a href="admin/add-listing.html">Add Listing</a></li>
-									<li><a href="admin/bookmark.html">Bookmark</a></li>
-									<li><a href="admin/courses.html">Courses</a></li>
-									<li><a href="admin/review.html">Review</a></li>
-									<li><a href="admin/teacher-profile.html">Teacher Profile</a></li>
-									<li><a href="admin/user-profile.html">User Profile</a></li>
-									<li><a href="javascript:;">Calendar<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="admin/basic-calendar.html">Basic Calendar</a></li>
-											<li><a href="admin/list-view-calendar.html">List View Calendar</a></li>
-										</ul>
-									</li>
-									<li><a href="javascript:;">Mailbox<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="admin/mailbox.html">Mailbox</a></li>
-											<li><a href="admin/mailbox-compose.html">Compose</a></li>
-											<li><a href="admin/mailbox-read.html">Mail Read</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li> -->
+
 							</ul>
-							<div class="nav-social-link">
-								<a href="javascript:;"><i class="fa fa-facebook"></i></a>
-								<a href="javascript:;"><i class="fa fa-google-plus"></i></a>
-								<a href="javascript:;"><i class="fa fa-linkedin"></i></a>
-							</div>
 						</div>
 						<!-- Navigation Menu END ==== -->
 					</div>
@@ -278,7 +235,7 @@
 							<li data-index="rs-100" data-transition="parallaxvertical" data-slotamount="default"
 								data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default"
 								data-easeout="default" data-masterspeed="default" data-thumb="error-404.html"
-								data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7"
+								data-rotate="0" data-fstransition="fade" data-fsmasterspeed="500" data-fsslotamount="7"
 								data-saveperformance="off" data-title="A STUDY ON HAPPINESS" data-param1=""
 								data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
 								data-param7="" data-param8="" data-param9="" data-param10=""
@@ -326,7 +283,7 @@
 									data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
 									data-paddingleft="[0,0,0,0]"
 									style="z-index: 7; white-space: nowrap; color:#fff; font-family:rubik; font-size:18px; font-weight:400;">
-									An investment in knowledge pays the best interest.
+									An investment in good education pays the best interest.
 								</div>
 
 								<!-- LAYER NR. 3 -->
@@ -340,12 +297,10 @@
 									data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
 									data-paddingleft="[0,0,0,0]"
 									style="z-index: 7; text-transform:capitalize; white-space: unset; color:#fff; font-family:rubik; font-size:18px; line-height:28px; font-weight:400;">
-									Education is the most powerful weapon which you can use to change the world.
-									<br>
-									- APJ Abdul Kalam
+									Education at SBOA is a Preparation for Life
 								</div>
 								<!-- LAYER NR. 4 -->
-								<a href="ourInstitute.html" style="text-decoration: none;">
+								<a href="educationatsboa.html" style="text-decoration: none;">
 									<div class="tp-caption Newspaper-Button rev-btn " id="slide-100-layer-5"
 										data-x="['center','center','center','center']"
 										data-hoffset="['90','80','75','90']" data-y="['top','top','top','top']"
@@ -374,101 +329,7 @@
 										CONTACT US </div>
 								</a>
 							</li>
-							<li data-index="rs-200" data-transition="parallaxvertical" data-slotamount="default"
-								data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default"
-								data-easeout="default" data-masterspeed="default"
-								data-thumb="assets/images/slider/slide1.jpg" data-rotate="0" data-fstransition="fade"
-								data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"
-								data-title="A STUDY ON HAPPINESS" data-param1="" data-param2="" data-param3=""
-								data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-								data-param9="" data-param10=""
-								data-description="Science says that Women are generally happier">
-								<!-- MAIN IMAGE -->
-								<img src="assets/images/slider/slider_1.jpg" alt="" data-bgposition="center center"
-									data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10"
-									class="rev-slidebg" data-no-retina />
 
-								<!-- LAYER NR. 1 -->
-								<div class="tp-caption tp-shape tp-shapewrapper " id="slide-200-layer-1"
-									data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-									data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
-									data-width="full" data-height="full" data-whitespace="nowrap" data-type="shape"
-									data-basealign="slide" data-responsive_offset="off" data-responsive="off"
-									data-frames='[{"from":"opacity:0;","speed":1,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"to":"opacity:1;","ease":"Power4.easeOut"}]'
-									data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
-									data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
-									data-paddingleft="[0,0,0,0]"
-									style="z-index: 5;background-color:rgba(2, 0, 11, 0.80);border-color:rgba(0, 0, 0, 0);border-width:0px;">
-								</div>
-
-								<!-- LAYER NR. 2 -->
-								<div class="tp-caption Newspaper-Title   tp-resizeme" id="slide-200-layer-2"
-									data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-									data-y="['top','top','top','top']" data-voffset="['250','250','250','240']"
-									data-fontsize="['50','50','50','30']" data-lineheight="['55','55','55','35']"
-									data-width="full" data-height="none" data-whitespace="normal" data-type="text"
-									data-responsive_offset="on"
-									data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-									data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-									data-paddingright="[0,0,0,0]" data-paddingbottom="[10,10,10,10]"
-									data-paddingleft="[0,0,0,0]"
-									style="z-index: 6; font-family:rubik; font-weight:700; text-align:center; white-space: normal;text-transform:uppercase;">
-									Welcome to SBOA Nerul
-								</div>
-
-								<!-- LAYER NR. 3 -->
-								<div class="tp-caption Newspaper-Subtitle   tp-resizeme" id="slide-200-layer-3"
-									data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-									data-y="['top','top','top','top']" data-voffset="['210','210','210','210']"
-									data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-									data-responsive_offset="on"
-									data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-									data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
-									data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
-									data-paddingleft="[0,0,0,0]"
-									style="z-index: 7; white-space: nowrap;text-transform:uppercase; color:#fff; font-family:rubik; font-size:18px; font-weight:400;">
-									Education is the movement from darkness to light.
-								</div>
-
-								<!-- LAYER NR. 3 -->
-								<div class="tp-caption Newspaper-Subtitle   tp-resizeme" id="slide-200-layer-4"
-									data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-									data-y="['top','top','top','top']" data-voffset="['320','320','320','290']"
-									data-width="['800','800','700','420']" data-height="['100','100','100','120']"
-									data-whitespace="unset" data-type="text" data-responsive_offset="on"
-									data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-									data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
-									data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
-									data-paddingleft="[0,0,0,0]"
-									style="z-index: 7; text-transform:capitalize; white-space: unset; color:#fff; font-family:rubik; font-size:18px; line-height:28px; font-weight:400;">
-									Never be afraid to try something new. Remember amateurs built the ark, but
-									professionals built the Titanic.
-								</div>
-								<!-- LAYER NR. 4 -->
-								<div class="tp-caption Newspaper-Button rev-btn " id="slide-200-layer-5"
-									data-x="['center','center','center','center']" data-hoffset="['90','80','75','90']"
-									data-y="['top','top','top','top']" data-voffset="['400','400','400','420']"
-									data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
-									data-responsive_offset="on" data-responsive="off"
-									data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
-									data-textAlign="['center','center','center','center']"
-									data-paddingtop="[12,12,12,12]" data-paddingright="[30,35,35,15]"
-									data-paddingbottom="[12,12,12,12]" data-paddingleft="[30,35,35,15]"
-									style="z-index: 8; white-space: nowrap; outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer; background-color:var(--primary) !important; border:0; border-radius:30px; margin-right:5px;">
-									READ MORE </div>
-								<div class="tp-caption Newspaper-Button rev-btn" id="slide-200-layer-6"
-									data-x="['center','center','center','center']"
-									data-hoffset="['-90','-80','-75','-90']" data-y="['top','top','top','top']"
-									data-voffset="['400','400','400','420']" data-width="none" data-height="none"
-									data-whitespace="nowrap" data-type="button" data-responsive_offset="on"
-									data-responsive="off"
-									data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
-									data-textAlign="['center','center','center','center']"
-									data-paddingtop="[12,12,12,12]" data-paddingright="[30,35,35,15]"
-									data-paddingbottom="[12,12,12,12]" data-paddingleft="[30,35,35,15]"
-									style="z-index: 8; white-space: nowrap; outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer; border-radius:30px;">
-									CONTACT US</div>
-							</li>
 							<!-- SLIDE  -->
 						</ul>
 					</div><!-- END REVOLUTION SLIDER -->
@@ -481,186 +342,176 @@
 				<div class="section-area content-inner service-info-bx">
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-4 col-md-4 col-sm-6">
-								<div class="service-bx">
-									<div class="action-box">
-										<img src="assets/images/infrastructure.jpg" alt="">
-									</div>
-									<div class="info-bx text-center">
-										<div class="feature-box-sm radius bg-white">
-											<i class="fa fa-bank text-primary"></i>
+							<div class="imagegroup" style="animation-delay: 1s;">
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<div class="service-bx">
+										<div class="action-box">
+											<img src="assets/images/index/image1.jpeg" alt="">
 										</div>
-										<h4><a href="#">Infrastructure</a></h4>
-										<!-- <a href="#" class="btn radius-xl">View More</a> -->
-										<p>The classrooms are well equipped with all the essential learning materials,
-											well ventilated and brightly coloured which help the students to focus and
-											take interest in their studies.</p>
+
 									</div>
 								</div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-6">
-								<div class="service-bx">
-									<div class="action-box">
-										<img src="assets/images/rotarary.jpg" alt="">
-									</div>
-									<div class="info-bx text-center">
-										<div class="feature-box-sm radius bg-white">
-											<i class="fa fa-globe text-primary"></i>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<div class="service-bx">
+										<div class="action-box">
+											<img src="assets/images/index/image2.jpeg" alt="">
 										</div>
-										<h4><a href="#">Rotary Club</a></h4>
-										<!-- <a href="#" class="btn radius-xl">View More</a> -->
-										<p>Rotary is an organization of business and professional person united worldwide who provide humanitarian service, encourage high ethical standards in all vocations and help build goodwill and peace in the world.</p>
+
 									</div>
 								</div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-12">
-								<div class="service-bx m-b0">
-									<div class="action-box">
-										<img src="assets/images/science-fair.jpg" alt="">
-									</div>
-									<div class="info-bx text-center">
-										<div class="feature-box-sm radius bg-white">
-											<i class="fa fa-flask text-primary"></i>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<div class="service-bx">
+										<div class="action-box">
+											<img src="assets/images/index/image3.jpeg" alt="">
 										</div>
-										<h4><a href="#">Science Exhibition</a></h4>
-										<p> A science exhibition is an interface of science and society and it contributes towards creating awareness about science as well as creating enthusiasm in students.</p>
+
 									</div>
 								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Our Services END -->
-				<!-- principle message ==== -->
-				<!-- <div class="section-area bg-gray section-sp1 our-story">
-					<div class="container">
-						<div class="row align-items-center d-flex">
-							<div class="col-lg-5 col-md-12 heading-bx">
-								<h2 class="m-b10">Principal Message</h2>
-								<p>“Learning gives creativity
-									Creativity leads to thinking
-									Thinking provides knowledge
-									Knowledge makes you great”.</p></br>
-								-- Dr.A P J Abdul Kalam.</p>
-							</div>
-							<div class="col-lg-7 col-md-12 heading-bx p-lr">
-								<div class="video-bx">
-									<img src="assets/images/about/principle.jpg" alt="" />
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<div class="service-bx">
+										<div class="action-box">
+											<img src="assets/images/index/image4.jpeg" alt="">
+										</div>
+
+									</div>
 								</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
-				<!-- Principle Message END ==== -->
-
-				<!-- Education at SBOA start -->
-				<div class="section-area bg-gray section-sp1 our-story">
-					<div class="container">
-						<div class="row align-items-center d-flex">
-							<div class="col-lg-12 col-md-12 heading-bx">
-								<h2 class="m-b10">Education at SBOA is a Preparation for Life </h2>
-								<!-- <h5 class="fw4"></h5> -->
-								<p class="mb-0 pb-0" style="text-align: justify; text-justify: inter-word;"> The school
-									keeps a central focus on teaching and learning and has
-									been producing excellent academic results since its inception. It
-									has gained distinction in the field of academics and firmly remains committed to the
-									cause of education in consonance with the emerging needs of the present. Learning
-									here is facilitated through experiments, projects, assignments and discussion in
-									every discipline.
-								</p>
-								<p class="mb-0 pb-0" style="text-align: justify; text-justify: inter-word;"> Apart from
-									refining the academic skills of the students, the educational programme at SBOA also
-									aims at strengthening the self
-									confidence of the learners by nurturing their hidden talents and capabilities. The
-									comprehensive programme of co –curricular activities
-									gives an ample room to every child to discover and develop his / her innate
-									strengths. A wide range of opportunities are provided here
-									in variety of areas viz. gymnastics, yoga, aerobics, scouts and guide, sports,
-									music, dance, drama, art and craft apart from academics.
-									The educational programme at SBOA seeks to instill in children ideal habits,
-									positive attitude and right values .Thus the children at
-									SBOA are trained not only for the school examinations but are also prepared to face
-									the tough challenges of life confidently and
-									responsibly.
-
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Education at SBOA End -->
-
-
-				<!-- Extra Start-->
-				<div class="section-area section-sp1">
-					<div class="container">
-						 <div class="row">
-							 <div class="col-lg-12">
-								 <div class="row">
-									<div class="col-lg-4 col-md-4 col-sm-4 m-b30">
-										<div class="feature-container">
-											<div class="feature-md text-white m-b20">
-												<a href="#" class="icon-cell"><img src="assets/images/icon/abacus.png" alt=""/></a> 
-											</div>
-											<div class="icon-content">
-												<h5 class="ttr-tilte">Abacus</h5>
-												<p>Your goal should be out of reach but not out of sight.</p>
-											</div>
+								<div class="col-lg-4 col-md-4 col-sm-6">
+									<div class="service-bx">
+										<div class="action-box">
+											<img src="assets/images/index/image5.jpeg" alt="">
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 m-b30">
-										<div class="feature-container">
-											<div class="feature-md text-white m-b20">
-												<a href="#" class="icon-cell"><img src="assets/images/icon/squats.png" alt=""/></a> 
-											</div>
-											<div class="icon-content">
-												<h5 class="ttr-tilte">Aerobics</h5>
-												<p>A year from now you may wish you had started today.</p>
-											</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image6.jpeg" alt="">
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 m-b30">
-										<div class="feature-container">
-											<div class="feature-md text-white m-b20">
-												<a href="#" class="icon-cell"><img src="assets/images/icon/acrobat.png" alt=""/></a> 
-											</div>
-											<div class="icon-content">
-												<h5 class="ttr-tilte">Gymnastics</h5>
-												<p>Jump off the beam, flip off the bars, follow your dreams and reach for the stars.</p>
-											</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image7.jpeg" alt="">
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 m-b30">
-										<div class="feature-container">
-											<div class="feature-md text-white m-b20">
-												<a href="#" class="icon-cell"><img src="assets/images/icon/yoga-pose.png" alt=""/></a> 
-											</div>
-											<div class="icon-content">
-												<h5 class="ttr-tilte">Yoga</h5>
-												<p>Yoga is the journey of the self, through the self, to the self.</p>
-											</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image8.jpeg" alt="">
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 m-b30">
-										<div class="feature-container">
-											<div class="feature-md text-white m-b20">
-												<a href="#" class="icon-cell"><img src="assets/images/icon/boy-scout.png" alt=""/></a> 
-											</div>
-											<div class="icon-content">
-												<h5 class="ttr-tilte">Scouts and Guide</h5>
-												<p>The sport in Scouting is to find the good in everyone and develop it.</p>
-											</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image9.jpeg" alt="">
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 m-b30">
-										<div class="feature-container">
-											<div class="feature-md text-white m-b20">
-												<a href="#" class="icon-cell"><img src="assets/images/icon/dancing.png" alt=""/></a> 
-											</div>
-											<div class="icon-content">
-												<h5 class="ttr-tilte">Cultural Festivals</h5>
-												<p>Culture is a way of coping with the world by defining it in detail.</p>
-											</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image10.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image11.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image12.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image14.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image15.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image16.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image17.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image18.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image19.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image20.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image21.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image22.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image23.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image24.jpeg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<div class="service-bx m-b0">
+										<div class="action-box">
+											<img src="assets/images/index/image25.jpeg" alt="">
 										</div>
 									</div>
 								</div>
@@ -668,159 +519,11 @@
 						</div>
 					</div>
 				</div>
-				<!-- Extra End -->
-
-				<!-- Recent News -->
-				<!-- <div class="section-area section-sp2">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12 heading-bx left">
-								<h2 class="title-head">Recent <span>Activities</span></h2>
-								<p>It is a long established fact that a reader will be distracted by the readable
-									content of a page</p>
-							</div>
-						</div>
-						<div class="recent-news-carousel owl-carousel owl-btn-1 col-12 p-lr0">
-							<div class="item">
-								<div class="recent-news">
-									<div class="action-box">
-										<img src="assets/images/blog/latest-blog/activity_1.jpg" alt="">
-									</div>
-									<div class="info-bx">
-										<ul class="media-post">
-											<li><a href="#"><i class="fa fa-calendar"></i>Jan 02 2019</a></li>
-											<li><a href="#"><i class="fa fa-user"></i>By William</a></li>
-										</ul>
-										<h5 class="post-title"><a href="blog-details.html">This Story Behind Education
-												Will Haunt You Forever.</a></h5>
-										<p>Knowing that, you’ve optimised your pages countless amount of times, written
-											tons.</p>
-										
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="recent-news">
-									<div class="action-box">
-										<img src="assets/images/blog/latest-blog/activity_2.jpg" alt="">
-									</div>
-									<div class="info-bx">
-										<ul class="media-post">
-											<li><a href="#"><i class="fa fa-calendar"></i>Feb 05 2019</a></li>
-											<li><a href="#"><i class="fa fa-user"></i>By John</a></li>
-										</ul>
-										<h5 class="post-title"><a href="blog-details.html">What Will Education Be Like
-												In The Next 50 Years?</a></h5>
-										<p>As desperate as you are right now, you have done everything you can on your.
-										</p>
-										
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="recent-news">
-									<div class="action-box">
-										<img src="assets/images/blog/latest-blog/activity_3.jpg" alt="">
-									</div>
-									<div class="info-bx">
-										<ul class="media-post">
-											<li><a href="#"><i class="fa fa-calendar"></i>April 14 2019</a></li>
-											<li><a href="#"><i class="fa fa-user"></i>By George</a></li>
-										</ul>
-										<h5 class="post-title"><a href="blog-details.html">Master The Skills Of
-												Education And Be.</a></h5>
-										<p>You will see in the guide all my years of valuable experience together with.
-										</p>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>  -->
-				<!-- Recent News End -->
-
 			</div>
 			<!-- contact area END -->
 		</div>
 		<!-- Content END-->
-		<!-- Footer ==== -->
-		<footer>
-			<div class="footer-top">
-				<div class="pt-exebar">
-					<div class="container">
-						<div class="d-flex align-items-stretch">
-							<div class="pt-logo mr-auto">
-								<a href="index.html" style="font-weight:700; font-size:20px">SBOA Public School</a>
-							</div>
-							<div class="pt-social-link">
-								<ul class="list-inline m-a0">
-									<li><a href="#" class="btn-link"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#" class="btn-link"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#" class="btn-link"><i class="fa fa-google-plus"></i></a></li>
-								</ul>
-							</div>
-							<!-- <div class="pt-btn-join">
-								<a href="#" class="btn ">Join Now</a>
-							</div> -->
-						</div>
-					</div>
-				</div>
-				<div class="container">
-					<div class="row">
 
-						<div class="col-12 col-lg-12 col-md-12 col-sm-12">
-							<div class="row">
-								<div class="col-4 col-lg-4 col-md-4 col-sm-4">
-									<div class="widget footer_widget">
-										<h5 class="footer-title">Information</h5>
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="facilities.html">Facilities</a></li>
-											<li><a href="motto.html">Our Motto</a></li>
-											<li><a href="management.html">Management</a></li>
-											<li><a href="admission.html">Admission</a></li>
-
-										</ul>
-									</div>
-								</div>
-								<div class="col-4 col-lg-4 col-md-4 col-sm-4">
-									<div class="widget footer_widget">
-										<h5 class="footer-title">More</h5>
-										<ul>
-											<li><a href="educationatsboa.html">Education At SBOA</a>
-											</li>
-											<li><a href="academics.html">Academics</a></li>
-											<li><a href="contact.html">Contact</a></li>
-											<li><a href="ourInstitute.html">Our Institute</a></li>
-											<li><a href="headmistress.html">Headmistress</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-4 col-lg-4 col-md-4 col-sm-4">
-									<div class="widget footer_widget">
-										<h5 class="footer-title">Contact</h5>
-										<span>Address</span>
-										<p> Plot number 10, Sector-5, Nerul, Navi Mumbai-400706</p>
-										<span>Phone</span>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-			<div class="footer-bottom">
-				<div class="container">
-
-				</div>
-			</div>
-		</footer>
-		<!-- Footer END ==== -->
-		<button class="back-to-top fa fa-chevron-up"></button>
 	</div>
 
 	<!-- External JavaScripts -->
@@ -878,26 +581,6 @@
 							swipe_direction: "horizontal",
 							drag_block_vertical: false
 						}
-						,
-						arrows: {
-							style: "uranus",
-							enable: true,
-							hide_onmobile: false,
-							hide_onleave: false,
-							tmp: '',
-							left: {
-								h_align: "left",
-								v_align: "center",
-								h_offset: 10,
-								v_offset: 0
-							},
-							right: {
-								h_align: "right",
-								v_align: "center",
-								h_offset: 10,
-								v_offset: 0
-							}
-						},
 
 					},
 					viewPort: {
