@@ -52,6 +52,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/settings.css">
 	<link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/navigation.css">
 	<!-- REVOLUTION SLIDER END -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
 	<style>
 		@media screen and (max-width: 480px) {
 			.show-on-desktop {
@@ -64,11 +65,100 @@
 				display: none;
 			}
 		}
+
+		/* PopUP Start*/
+		.modal-content {
+			margin-top: 140px;
+		}
+		.modal-body h1 {
+			font-weight: 900;
+			font-size: 1.3em;
+			text-transform: uppercase;
+		}
+
+		.modal-body a.pre-order-btn {
+			color: #000;
+			background-color: gold;
+			border-radius: 1em;
+			padding: 0.5em;
+			display: block;
+			margin: 2em auto;
+			width: 50%;
+			font-size: 1.25em;
+			font-weight: 6600;
+		}
+
+		.modal-body a.pre-order-btn:hover {
+			background-color: #000;
+			text-decoration: none;
+			color: gold;
+		}
+
+		/* Popup END */
 	</style>
 
+	<!-- Modal -->
+	<script>
+		$(document).ready(function () {
+			$('#myModal').modal('show');
+		}); 
+	</script>
+	<!-- Modal -->
+
 </head>
+<!-- Preloader Start -->
+<div id="loader-wrapper">
+	<div id="loader"></div>
+	<div class="loader-section section-left"></div>
+	<div class="loader-section section-right"></div>
+</div>
+<!-- Preloader End -->
+
+<!-- Popup Start -->
+<div id="myModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header" style="text-align: center;">
+				<h4 class="modal-title" style="text-align: center;">ATTENTION</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body text-center" style="font-size: 18px; font-weight: 500; color: red; text-decoration: solid;">
+				<p>Admissions Open <br> For the Year 2023-24 <br>
+				Call 022-27716879 [9 a.m - 12 p.m]<br>
+				For Further Details</p>
+			</div>
+			<div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Popup End -->
 
 <body id="bg">
+	<div id="myModal" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Subscribe our Newsletter</h5>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					<p>Subscribe to our mailing list to get the latest updates straight in your inbox.</p>
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Name">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" placeholder="Email Address">
+						</div>
+						<button type="submit" class="btn btn-primary">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="page-wraper">
 		<div id="loading-icon-bx"></div>
 		<!-- Header Top ==== -->
@@ -84,8 +174,7 @@
 						</div>
 						<div class="topbar-right">
 							<ul>
-								<li><a
-										href="https://sboamh.dcsolutions.in/">Fees Portal</a></li>
+								<li><a href="https://sboamh.dcsolutions.in/">Fees Portal</a></li>
 								<li><a
 										href="https://sboamh.dcsolutions.in/Pages/OnlineAdmission/AdmissionHome.aspx?OrgGroupId=5351&OrgId">Admission</a>
 								</li>
@@ -110,13 +199,13 @@
 						<button class="navbar-toggler collapsed menuicon justify-content-end" type="button"
 							data-toggle="collapse" data-target="#menuDropdown" aria-controls="menuDropdown"
 							aria-expanded="false" aria-label="Toggle navigation">
-							
+
 							<span></span>
 							<span></span>
 							<span></span>
 						</button>
-						
-				
+
+
 
 						<!-- Navigation Menu ==== -->
 						<div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
